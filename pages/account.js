@@ -33,7 +33,9 @@ const Account = () => {
         if (!sdkInsta) return;
         try {
             console.log('get login state...');
-            let state = await sdkInsta.getUserInfo();
+            let state = await sdkInsta.getUserInfo({
+                refresh: true,
+            });
             console.log('get loginState resp: ', state)
             if (!state) {
                 state = await sdkInsta.login()

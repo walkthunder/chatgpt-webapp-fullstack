@@ -50,8 +50,8 @@ function ChatComponent(props) {
             // domain: 'http://localhost:3333',
             pageDomain: 'https://pay.freecharger.cn',
             mobile: true,
-            inPage: true,
-            root: '#sdk-root'
+            // inPage: true,
+            // root: '#sdk-root'
         });
     }, []);
 

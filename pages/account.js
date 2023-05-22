@@ -21,7 +21,7 @@ const Account = () => {
             // domain: 'http://localhost:3333',
             pageDomain: 'https://pay.freecharger.cn',
             mobile: true,
-            root: '#sdk-root'
+            // root: '#sdk-root'
         });
     }, []);
 
@@ -105,7 +105,7 @@ const Account = () => {
 
     return <div className='account-container'>
         <NavBar onBack={back}>账户中心</NavBar>
-        <div id='sdk-root'></div>
+        {/* <div id='sdk-root'></div> */}
         <List header='用户信息' mode='card'>
             <List.Item
                 prefix={<Avatar src={loginState?.avatar || loginState?.weixinProfile?.headimgurl} />}

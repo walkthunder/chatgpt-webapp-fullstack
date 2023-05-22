@@ -21,7 +21,6 @@ const Account = () => {
             // domain: 'http://localhost:3333',
             pageDomain: 'https://pay.freecharger.cn',
             mobile: true,
-            inPage: true,
             root: '#sdk-root'
         });
     }, []);
@@ -38,7 +37,7 @@ const Account = () => {
             });
             console.log('get loginState resp: ', state)
             if (!state) {
-                state = await sdkInsta.login()
+                state = await sdkInsta.login({})
             }
             setLoginState(state);
         } catch (error) {

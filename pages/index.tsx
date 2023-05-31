@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
       {/* <Header /> */}
       <Chat />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

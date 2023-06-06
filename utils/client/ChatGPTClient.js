@@ -190,6 +190,7 @@ export default class ChatGPTClient {
 
         let counter = 0;
 
+        console.log('fetch url...', modelOptions.messages)
         const res = await fetch(url, {
             ...opts,
             signal: abortController.signal,

@@ -5,6 +5,8 @@
 .page-container {
     margin: 0;
     padding: 0;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 .adm-list-item {

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@cashier/web':
-    specifier: ^0.4.4
-    version: registry.npmmirror.com/@cashier/web@0.4.4
+    specifier: ^0.4.5
+    version: registry.npmmirror.com/@cashier/web@0.4.5
   '@dqbd/tiktoken':
     specifier: ^1.0.7
     version: registry.npmmirror.com/@dqbd/tiktoken@1.0.7
@@ -130,10 +130,10 @@ packages:
       regenerator-runtime: registry.npmmirror.com/regenerator-runtime@0.13.11
     dev: false
 
-  registry.npmmirror.com/@cashier/web@0.4.4:
-    resolution: {integrity: sha512-pV1/sbyjxsUbzUjavEE5iwOaz+GXfx/dtMAqi0aa6TSRD6VGFOU+IWfLT4BYDr1sTywmkluGkYVkic0S9d1OGg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@cashier/web/-/web-0.4.4.tgz}
+  registry.npmmirror.com/@cashier/web@0.4.5:
+    resolution: {integrity: sha512-vATOtg+a2x645MrJSOzuv/mnXbAhab5bNGZ3dmMwfdJXC2cQSEJWwGy/K5A9uA+riQ9VoeAnj9lAKuAxelwXbQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@cashier/web/-/web-0.4.5.tgz}
     name: '@cashier/web'
-    version: 0.4.4
+    version: 0.4.5
     dependencies:
       axios: registry.npmmirror.com/axios@0.26.1
       crypto-js: registry.npmmirror.com/crypto-js@4.1.1
